@@ -1,0 +1,124 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+  <script src="popup.js"></script>
+  </head>
+  <body>
+  <button id = "resetButton" >Reset</button>
+  <table border="1" style="width:100%">
+  <tr>
+    <th id="r0c1" >site</th>
+    <th id="r0c2">time spent</th> 
+  </tr>
+  <tr id="tr1">
+    <th id="r1c1" ></th>
+    <th id="r1c2"></th> 
+  </tr>
+  <tr id="tr2">
+    <th id="r2c1" ></th>
+    <th id="r2c2"></th> 
+  </tr>
+  <tr id="tr3">
+    <th id="r3c1" ></th>
+    <th id="r3c2"></th> 
+  </tr>
+  <tr id="tr4">
+    <th id="r4c1" ></th>
+    <th id="r4c2"></th> 
+  </tr>
+  <tr id="tr5">
+    <th id="r5c1" ></th>
+    <th id="r5c2"></th> 
+  </tr>
+  <tr id="tr6">
+    <th id="r6c1" ></th>
+    <th id="r6c2"></th> 
+  </tr>
+  <tr id="tr7">
+    <th id="r7c1" ></th>
+    <th id="r7c2"></th> 
+  </tr>
+  <tr id="tr8">
+    <th id="r8c1" ></th>
+    <th id="r8c2"></th> 
+  </tr>
+  <tr id="tr9">
+    <th id="r9c1" ></th>
+    <th id="r9c2"></th> 
+  </tr>
+  <tr id="tr10">
+    <th id="r10c1" ></th>
+    <th id="r10c2"></th> 
+  </tr>
+
+  <tr id="tr11">
+    <th id="r11c1" ></th>
+    <th id="r11c2"></th> 
+  </tr>
+  <tr id="tr12">
+    <th id="r12c1" ></th>
+    <th id="r12c2"></th> 
+  </tr>
+  <tr id="tr13">
+    <th id="r13c1" ></th>
+    <th id="r13c2"></th> 
+  </tr>
+  <tr id="tr14">
+    <th id="r14c1" ></th>
+    <th id="r14c2"></th> 
+  </tr>
+  <tr id="tr15">
+    <th id="r15c1" ></th>
+    <th id="r15c2"></th> 
+  </tr>
+  <tr id="tr16">
+    <th id="r16c1" ></th>
+    <th id="r16c2"></th> 
+  </tr>
+  <tr id="tr17">
+    <th id="r17c1" ></th>
+    <th id="r17c2"></th> 
+  </tr>
+  <tr id="tr18">
+    <th id="r18c1" ></th>
+    <th id="r18c2"></th> 
+  </tr>
+  <tr id="tr19">
+    <th id="r19c1" ></th>
+    <th id="r19c2"></th> 
+  </tr>
+  <tr id="tr20">
+    <th id="r20c1" ></th>
+    <th id="r20c2"></th> 
+  </tr>
+
+</table>
+  </body>
+</html>
+
