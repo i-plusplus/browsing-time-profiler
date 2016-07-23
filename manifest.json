@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Browsing Time Profiler",
+  "description": "It samples current tab's site name every 5 seconds and gives a report on how much time spent on top 9 websites and total browsing time",
   "version": "1.0",
 
   "browser_action": {
