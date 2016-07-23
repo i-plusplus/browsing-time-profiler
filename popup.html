@@ -9,7 +9,7 @@
     <title>Getting Started Extension's Popup</title>
     <style>
       body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-family: "Times New Roman", Times, serif;
         font-size: 100%;
       }
       #status {
@@ -17,7 +17,7 @@
         white-space: pre;
         text-overflow: ellipsis;
         overflow: hidden;
-        max-width: 400px;
+        max-width: 800px;
       }
     </style>
 
@@ -30,11 +30,20 @@
   <script src="popup.js"></script>
   </head>
   <body>
+  <style>
+
+     th {
+        padding: 5px 5px 5px 5px;
+    }
+    table {
+        border-collapse: collapse;
+    }
+  </style>
   <button id = "resetButton" >Reset</button>
-  <table border="1" style="width:100%">
+  <table border=".001" style="width:100%">
   <tr>
-    <th id="r0c1" >site</th>
-    <th id="r0c2">time spent</th> 
+    <th id="r0c1">Site</th>
+    <th id="r0c2">Time Spent</th> 
   </tr>
   <tr id="tr1">
     <th id="r1c1" ></th>
